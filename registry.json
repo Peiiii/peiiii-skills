@@ -1,9 +1,9 @@
 {
   "version": 1,
   "repositories": {
-    "personal-skills": {
-      "url": "https://github.com/Peiiii/personal-skills",
-      "checkout": "explorations/personal-skills",
+    "peiiii-skills": {
+      "url": "https://github.com/Peiiii/peiiii-skills",
+      "checkout": "explorations/peiiii-skills",
       "visibility": "public"
     },
     "deploy-your-app": {
@@ -26,19 +26,19 @@
   "skills": [
     {
       "id": "clear-ui",
-      "owner": "personal-skills",
+      "owner": "peiiii-skills",
       "mode": "hosted",
       "path": "skills/clear-ui"
     },
     {
       "id": "drawing-system-architecture",
-      "owner": "personal-skills",
+      "owner": "peiiii-skills",
       "mode": "hosted",
       "path": "skills/drawing-system-architecture"
     },
     {
       "id": "maintaining-personal-skills",
-      "owner": "personal-skills",
+      "owner": "peiiii-skills",
       "mode": "hosted",
       "path": "skills/maintaining-personal-skills"
     },

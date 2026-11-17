@@ -1,4 +1,4 @@
-# Personal Skills
+# Peiiii Skills
 
 Peiiii 的开源个人 Skill 库与跨项目登记入口。
 
@@ -21,8 +21,8 @@ Peiiii 的开源个人 Skill 库与跨项目登记入口。
 需要 Node.js 22+；不需要安装运行依赖。克隆到任意目录：
 
 ```sh
-git clone https://github.com/Peiiii/personal-skills.git
-cd personal-skills
+git clone https://github.com/Peiiii/peiiii-skills.git
+cd peiiii-skills
 npm run check
 npm test
 node scripts/skills.mjs list

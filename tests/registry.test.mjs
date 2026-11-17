@@ -7,12 +7,12 @@ import {spawnSync} from 'node:child_process';
 import {SkillRegistry} from '../scripts/skills.mjs';
 
 async function fixture(t) {
-  const root = await fs.mkdtemp(path.join(os.tmpdir(),'personal-skills-'));
+  const root = await fs.mkdtemp(path.join(os.tmpdir(),'peiiii-skills-'));
   t.after(() => fs.rm(root,{recursive:true,force:true}));
   const installRoot = path.join(root,'global');
   await fs.mkdir(path.join(root,'skills/example'),{recursive:true});
   await fs.writeFile(path.join(root,'skills/example/SKILL.md'),'---\nname: example\ndescription: Example capability\n---\nOriginal');
-  const data = {version:1,repositories:{'personal-skills':{visibility:'public',url:'https://github.com/Peiiii/personal-skills',checkout:'explorations/personal-skills'},project:{visibility:'private'}},skills:[{id:'example',owner:'personal-skills',mode:'hosted',path:'skills/example'}]};
+  const data = {version:1,repositories:{'peiiii-skills':{visibility:'public',url:'https://github.com/Peiiii/peiiii-skills',checkout:'explorations/peiiii-skills'},project:{visibility:'private'}},skills:[{id:'example',owner:'peiiii-skills',mode:'hosted',path:'skills/example'}]};
   const save = async () => fs.writeFile(path.join(root,'registry.json'),JSON.stringify(data));
   await save();
   return {root,installRoot,data,save,registry:()=>new SkillRegistry(root,{installRoot})};
@@ -36,7 +36,7 @@ test('invalid IDs, traversal and unknown owners cannot become installation paths
 });
 test('all-target preflight protects real directories and avoids partial installs',async t=>{
   const f=await fixture(t);
-  f.data.skills.push({id:'blocked',owner:'personal-skills',mode:'hosted',path:'skills/blocked'});await f.save();
+  f.data.skills.push({id:'blocked',owner:'peiiii-skills',mode:'hosted',path:'skills/blocked'});await f.save();
   await fs.mkdir(path.join(f.root,'skills/blocked'));await fs.writeFile(path.join(f.root,'skills/blocked/SKILL.md'),'source');
   await fs.mkdir(path.join(f.installRoot,'blocked'),{recursive:true});await fs.writeFile(path.join(f.installRoot,'blocked/keep'),'original');
   const r=await f.registry().load();await assert.rejects(r.install(['example','blocked'],{replaceLink:true}),/non-symlink/);
@@ -64,5 +64,5 @@ test('public registry rejects embedded private bindings',async t=>{
 });
 test('real registry is readable from a different cwd',()=>{
   const result=spawnSync(process.execPath,[path.resolve('scripts/skills.mjs'),'resolve','clear-ui'],{cwd:os.tmpdir(),encoding:'utf8'});
-  assert.equal(result.status,0,result.stderr);assert.equal(JSON.parse(result.stdout).owner,'personal-skills');
+  assert.equal(result.status,0,result.stderr);assert.equal(JSON.parse(result.stdout).owner,'peiiii-skills');
 });

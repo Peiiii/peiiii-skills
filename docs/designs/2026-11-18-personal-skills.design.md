@@ -15,3 +15,9 @@ A01 passed：官方探索create完成，安装器check通过。A02 passed：clea
 方案和实现均由执行者自审，遵从用户不使用子代理，未宣称独立模型遵从性验证。新通用维护入口有稳定重复意图；相邻skild仅负责安装/发布包，不拥有本人跨项目源码登记。没有把所有物理安装目录推断为本人原创并批量公开。独立UI规则依旧原库唯一维护。全局新增1个维护入口，其余迁移保持原description；没有改其它项目常驻AGENTS或开发流程。
 
 retrospective_decision: 已将唯一正文/跨项目登记/私有绑定边界落实在registry、维护Skill与CONTRIBUTING；复用确定性安装和校验，避免复制正文或后台自动改库。未设置自动任务。后续优化在本人实际指派时沿owner发生，不保证宿主离线仍执行。
+
+## 仓库命名修订
+
+本人要求仓库名改为peiiii-skills；GitHub地址、本地目录、登记owner、Git remote与全局符号链接同步修改。maintaining-personal-skills作为独立Skill的稳定名称保留，不因仓库改名改变。
+
+改名验收：GitHub实际name为peiiii-skills且保持PUBLIC；3个本库全局链接已重建，22项doctor、7测试、clear-ui检查和DevWeave检查通过，旧项目评审链接同步更新并推送。改名不改变Skill稳定名；复盘无新增机制需求。

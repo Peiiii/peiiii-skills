@@ -1,4 +1,4 @@
-# personal-skills
+# peiiii-skills
 
 遵循上级探索项目目录规范；项目特有规则写在 DevWeave 受管段之外。
 

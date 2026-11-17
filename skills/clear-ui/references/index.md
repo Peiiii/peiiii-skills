@@ -50,4 +50,4 @@ ID格式：`ui.<模块>.<英文slug>`。一项一个文件，ID稳定且跨目�
 
 以下规则正文由自有UI Rules库维护，不在Skill内复制。检查按钮、列表行、折叠标题或菜单项时，必须加载[ui.layout.content-inset · 交互表面的实际内容保留内边距](https://github.com/Peiiii/ui-rules/blob/main/rules/layout/content-inset.md)，覆盖仅在hover、焦点、选中或展开后才显露的表面及尾部图标。它补充空间模式，不等于任意项目已通过验证。
 
-本机有个人Skill登记工具时，可用`node <personal-skills仓库>/scripts/skills.mjs resource ui-rules`定位本地规则库；无本地副本时读取上述来源链接。
+本机有个人Skill登记工具时，可用`node <peiiii-skills仓库>/scripts/skills.mjs resource ui-rules`定位本地规则库；无本地副本时读取上述来源链接。

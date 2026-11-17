@@ -29,8 +29,8 @@ export class SkillRegistry {
       if (!slug.test(entry.id) || ids.has(entry.id)) throw Error(`Invalid or duplicate ID: ${entry.id}`);
       ids.add(entry.id);
       if (!data.repositories[entry.owner] || !['hosted','project','upstream'].includes(entry.mode) || !relative(entry.path)) throw Error(`Invalid source: ${entry.id}`);
-      if (entry.mode === 'hosted' && (entry.owner !== 'personal-skills' || entry.path !== `skills/${entry.id}`)) throw Error(`Invalid hosted owner: ${entry.id}`);
-      if (entry.mode !== 'hosted' && entry.owner === 'personal-skills') throw Error(`Invalid external owner: ${entry.id}`);
+      if (entry.mode === 'hosted' && (entry.owner !== 'peiiii-skills' || entry.path !== `skills/${entry.id}`)) throw Error(`Invalid hosted owner: ${entry.id}`);
+      if (entry.mode !== 'hosted' && entry.owner === 'peiiii-skills') throw Error(`Invalid external owner: ${entry.id}`);
       if (entry.mode === 'upstream' && !entry.upstream) throw Error(`Missing upstream: ${entry.id}`);
     }
     for (const resource of data.resources || []) if (!slug.test(resource.id) || !relative(resource.checkout) || !/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+$/.test(resource.url || '')) throw Error('Invalid resource');
@@ -40,7 +40,7 @@ export class SkillRegistry {
   resolve = id => {
     const entry = this.get(id), repository = this.data.repositories[entry.owner];
     const binding = this.local.repositories?.[entry.owner];
-    const ownerRoot = entry.owner === 'personal-skills' ? this.root : binding?.path || (repository.checkout ? path.join(this.projectsRoot, repository.checkout) : null);
+    const ownerRoot = entry.owner === 'peiiii-skills' ? this.root : binding?.path || (repository.checkout ? path.join(this.projectsRoot, repository.checkout) : null);
     if (!ownerRoot || !path.isAbsolute(ownerRoot)) throw Error(`Bind ${entry.owner} in registry.local.json before local maintenance`);
     return {...entry, repository: binding?.url || repository.url || null, ownerRoot, source: path.join(ownerRoot, entry.path), globalEntry: path.join(this.installRoot, entry.id), writable: entry.mode !== 'upstream'};
   };
