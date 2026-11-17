@@ -50,4 +50,6 @@ ID格式：`ui.<模块>.<英文slug>`。一项一个文件，ID稳定且跨目�
 
 以下规则正文由自有UI Rules库维护，不在Skill内复制。检查按钮、列表行、折叠标题或菜单项时，必须加载[ui.layout.content-inset · 交互表面的实际内容保留内边距](https://github.com/Peiiii/ui-rules/blob/main/rules/layout/content-inset.md)，覆盖仅在hover、焦点、选中或展开后才显露的表面及尾部图标。它补充空间模式，不等于任意项目已通过验证。
 
+检查导航、会话列表、页签或可选卡片的交互状态时，必须加载[ui.feedback.interactive-hover · 可点击元素提供悬停反馈](https://github.com/Peiiii/ui-rules/blob/main/rules/feedback/interactive-hover.md)与[ui.feedback.selection-state · 选中态延续悬停语言并与焦点分离](https://github.com/Peiiii/ui-rules/blob/main/rules/feedback/selection-state.md)。规则区分hover、按下、持续选中与键盘焦点；默认采用同一底色语言的适度强调，不把某个产品的视觉偏好冒称通用标准。
+
 本机有个人Skill登记工具时，可用`node <peiiii-skills仓库>/scripts/skills.mjs resource ui-rules`定位本地规则库；无本地副本时读取上述来源链接。
