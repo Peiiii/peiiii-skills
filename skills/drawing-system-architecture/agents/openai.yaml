@@ -1,0 +1,6 @@
+interface:
+  display_name: "系统架构绘图"
+  short_description: "绘制清晰的模块、分层与跨机器架构图，使用可编辑 SVG 并核验实际画面"
+  default_prompt: "使用 $drawing-system-architecture 为当前项目绘制清晰的架构图，说明模块职责、关系与部署边界。"
+policy:
+  allow_implicit_invocation: true

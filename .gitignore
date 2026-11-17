@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+.sites-runtime/
+registry.local.json
+__pycache__/
+*.pyc

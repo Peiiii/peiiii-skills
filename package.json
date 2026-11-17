@@ -1,0 +1,14 @@
+{
+  "name": "@peiiii/personal-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/skills.mjs check",
+    "test": "node --test tests/*.test.mjs",
+    "skills": "node scripts/skills.mjs"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "repositories": {
+    "personal-skills": {
+      "url": "https://github.com/Peiiii/personal-skills",
+      "checkout": "explorations/personal-skills",
+      "visibility": "public"
+    },
+    "deploy-your-app": {
+      "url": "https://github.com/Peiiii/deploy-your-app",
+      "checkout": "deploy-your-app",
+      "visibility": "public"
+    },
+    "content-studio": {
+      "visibility": "private"
+    }
+  },
+  "resources": [
+    {
+      "id": "ui-rules",
+      "url": "https://github.com/Peiiii/ui-rules",
+      "checkout": "ui-rules",
+      "purpose": "独立维护的原子UI规则正文；Skill仅引用"
+    }
+  ],
+  "skills": [
+    {
+      "id": "clear-ui",
+      "owner": "personal-skills",
+      "mode": "hosted",
+      "path": "skills/clear-ui"
+    },
+    {
+      "id": "drawing-system-architecture",
+      "owner": "personal-skills",
+      "mode": "hosted",
+      "path": "skills/drawing-system-architecture"
+    },
+    {
+      "id": "maintaining-personal-skills",
+      "owner": "personal-skills",
+      "mode": "hosted",
+      "path": "skills/maintaining-personal-skills"
+    },
+    {
+      "id": "aosenmu-explainer",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/aosenmu-explainer"
+    },
+    {
+      "id": "cloning-personal-voice",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/cloning-personal-voice"
+    },
+    {
+      "id": "discussion-to-post",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/discussion-to-post"
+    },
+    {
+      "id": "gemigo-customer-analytics",
+      "owner": "deploy-your-app",
+      "mode": "project",
+      "path": "skills/gemigo-customer-analytics"
+    },
+    {
+      "id": "humanizer",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/humanizer"
+    },
+    {
+      "id": "hyperframes",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/hyperframes"
+    },
+    {
+      "id": "hyperframes-cli",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/hyperframes-cli"
+    },
+    {
+      "id": "hyperframes-registry",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/hyperframes-registry"
+    },
+    {
+      "id": "live-panel",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/live-panel"
+    },
+    {
+      "id": "media-use",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/media-use"
+    },
+    {
+      "id": "oil-ui",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/oil-ui"
+    },
+    {
+      "id": "recreating-interactive-posts",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/recreating-interactive-posts"
+    },
+    {
+      "id": "recreating-web-styles",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/recreating-web-styles"
+    },
+    {
+      "id": "remotion-best-practices",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/remotion-best-practices"
+    },
+    {
+      "id": "video",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/video"
+    },
+    {
+      "id": "x-audience-growth",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/x-audience-growth"
+    },
+    {
+      "id": "x-harness",
+      "owner": "content-studio",
+      "upstream": "@nextclaw/x-harness",
+      "mode": "upstream",
+      "path": "node_modules/@nextclaw/x-harness/skill"
+    },
+    {
+      "id": "xianyu-service-operations",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/xianyu-service-operations"
+    },
+    {
+      "id": "xiaohongshu-product-case",
+      "owner": "content-studio",
+      "mode": "project",
+      "path": ".agents/skills/xiaohongshu-product-case"
+    }
+  ]
+}
