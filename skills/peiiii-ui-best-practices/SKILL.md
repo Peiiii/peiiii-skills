@@ -21,4 +21,4 @@ description: 在设计、实现或评审项目界面时使用，尤其适用于�
 | 页面结构、列表、侧栏、导航、响应式 | [布局与导航](references/layout.md) |
 | 内容层级、视觉分区、图标、卡片、汇报 | [内容与视觉](references/content.md) |
 
-在真实页面验收当前任务及受影响状态。规则以英文 ID 引用，同一模块写在一个文件内；新增规则通常只需一句。`ui.pattern.*` 按场景采用，其他规则命中时必须检查。外部依据见[来源](references/sources.md)。
+共用规则先用本库的 `node scripts/skills.mjs resource ui-rules` 定位本机仓库，再读相关 `rules/<module>.md`。规则和实现建议都在模块内。先检查现有组件能否复用，再按模块的验收方法核对真实页面和受影响状态。规则以英文 ID 引用，同一模块写在一个文件内；新增规则通常只需一句。`ui.pattern.*` 按场景采用，其他规则命中时必须检查。外部依据见[来源](references/sources.md)。
