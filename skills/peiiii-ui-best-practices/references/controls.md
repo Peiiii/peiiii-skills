@@ -2,6 +2,7 @@
 
 ## 基础控件
 
+- `ui.controls.stable-press-feedback`：按钮和可点击行在按下、松开、选中时保持位置和尺寸；禁止用缩放或位移做按压反馈，需要反馈时用轻微底色。
 - `ui.controls.inline-action-density`：正文后的展开、收起等用共享紧凑操作样式。内边距与正文间隔用小一档；需要更大触控区时，别把 hover 底色跟着放大。
 - `ui.controls.input-affordance`：输入和选择范围在默认态就可识别，保留标签、可点范围与错误反馈。
 - 密码框默认遮蔽，尾部提供可用键盘操作的眼睛按钮，逐个字段切换显示与隐藏。最短长度由产品按风险决定。详见 [ui.forms.password-visibility](https://github.com/Peiiii/ui-rules/blob/main/rules/forms/password-visibility.md)。
