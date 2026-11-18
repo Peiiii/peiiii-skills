@@ -9,7 +9,7 @@
 1. 对照项目技术栈读取 [shadcn/ui 官方组件目录](https://ui.shadcn.com/docs/components) 与所选变体的实际源码。先确认项目已使用的是 Radix、Base UI 或其他原语，沿用同一套基础。
 2. 复用官方组件的职责分工、单一原生触发元素、组合方式与可访问性。以 [Tooltip](https://ui.shadcn.com/docs/components/radix/tooltip) 为例，Provider 设在合适层级，Trigger 用 `asChild` 接到实际按钮，沿用原语的键盘、延迟、边界避让和定位。Dialog 保留焦点约束、Escape 与焦点归还。
 3. 由项目本地基础组件统一字号、间距、图标尺寸、圆角、颜色和各状态，通过主题 token 与少量组件变体调整。业务页面传内容、动作和语义属性。组件目录和生产页面引用同一实现。
-4. 图标操作统一经 IconButton。保持可访问名称及 hover、按下、焦点、选中、禁用等可区分状态。触控命中范围可以大于视觉底色。Tooltip 密度、位置默认值与菜单组合由基础层维护。
+4. 图标操作统一经 IconButton。保持可访问名称及 hover、按下、焦点、选中、禁用等可区分状态。触控命中范围可以大于视觉底色。Tooltip 密度、位置默认值与菜单组合由基础层维护。所有操作按钮执行 [ui.behavior.action-focus](../rules/ui.behavior.action-focus.md)。
 
 ## 反例与取舍
 

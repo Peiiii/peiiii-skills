@@ -9,6 +9,7 @@ ID格式：`ui.<模块>.<英文slug>`。一项一个文件，ID稳定且跨目�
 | ID | 内容 |
 | --- | --- |
 | [ui.behavior.accessibility](rules/ui.behavior.accessibility.md) | 可访问性是清晰度的底线 |
+| [ui.behavior.action-focus](rules/ui.behavior.action-focus.md) | 操作按钮只显示一层贴合的键盘焦点标记，指针操作不留外环 |
 | [ui.behavior.feedback-recovery](rules/ui.behavior.feedback-recovery.md) | 操作反馈与恢复 |
 | [ui.behavior.responsive-context](rules/ui.behavior.responsive-context.md) | 窄屏保留任务上下文 |
 | [ui.behavior.states](rules/ui.behavior.states.md) | 状态真实且可区分 |

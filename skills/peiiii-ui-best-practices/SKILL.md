@@ -9,6 +9,8 @@ description: 在设计、实现或评审项目界面时使用，尤其适用于�
 
 ## 使用
 
+**任何操作按钮实现或评审前，必读 [ui.behavior.action-focus](references/rules/ui.behavior.action-focus.md)。** 图标工具栏、菜单与弹窗触发器必须验证鼠标和键盘两条路径。
+
 1. 从用户任务和真实画面识别主要阻碍。先说明用户需要判断什么、操作哪个对象；保留已经确认的产品模型与设计方向。
 2. 读取[规则与实践索引](references/index.md)，只加载适用条目。`references/rules` 是带正向要求、禁止项和验证方式的原子规则；`references/patterns` 是组件作用、适用场景、取舍与反例。不要一次加载全部条目，也不把指南当作必须堆上的组件清单。
 3. 实现或调整通用控件时先看 [shadcn 源码与项目主题](references/patterns/ui.pattern.shadcn-native-components.md)，由项目公共组件统一承接。
