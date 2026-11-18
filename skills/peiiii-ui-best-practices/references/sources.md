@@ -1,6 +1,6 @@
 # 来源与推导边界
 
-规则正文是便于执行的原创整理；不是逐条外部标准，也不宣称存在唯一最佳布局。下列来源仅支持对应概念；工作区映射、反例及采用哪种模式仍需按真实任务判断。
+以下链接提供规则的外部依据。
 
 | 规则 | 来源与用途 |
 | --- | --- |
@@ -14,5 +14,3 @@
 | `ui.pattern.navigation-tabs` | [WAI-ARIA APG：Tabs](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)：页签语义与键盘交互。 |
 | `ui.behavior.accessibility` | [WCAG 2.2：Contrast minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)、[Target size minimum](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)：遵循适用范围及例外，不简化为所有目标一律24px。 |
 | `ui.behavior.responsive-context` | [WCAG：Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html)：内容重排与保留功能；局部数据表等有适用例外。 |
-
-其他规则是基于任务分析的实践判断，需通过实际使用不断修订。抽屉、卡片等没有脱离场景的优先级；图标优于文字、留白越多越高级、一个屏幕只能有一个操作等均不是通用定律。
