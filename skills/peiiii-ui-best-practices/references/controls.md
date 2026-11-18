@@ -4,6 +4,7 @@
 
 - `ui.controls.inline-action-density`：正文后的展开、收起等用共享紧凑操作样式。内边距与正文间隔用小一档；需要更大触控区时，别把 hover 底色跟着放大。
 - `ui.controls.input-affordance`：输入和选择范围在默认态就可识别，保留标签、可点范围与错误反馈。
+- 密码框默认遮蔽，尾部提供可用键盘操作的眼睛按钮，逐个字段切换显示与隐藏。最短长度由产品按风险决定。详见 [ui.forms.password-visibility](https://github.com/Peiiii/ui-rules/blob/main/rules/forms/password-visibility.md)。
 - 对比默认与聚焦边框，确认颜色、宽度一致；检查鼠标、Tab 和弹窗自动聚焦，错误状态保持可辨识。发送快捷键避免截断输入法组字，保留换行与可点击发送。
 - 用项目的 Button、IconButton 和 Tooltip；空图标按钮有明确名称，Tooltip 用一个 Trigger 接到实际按钮，保留默认定位和碰撞避让。触控区可以大于图标底色。
 - 焦点外圈复现时检查 computed `outline`、`box-shadow` 和伪元素，移除重复样式。如果菜单归还焦点后指针误触发 `:focus-visible`，在基础层识别输入方式，保留焦点归还。
