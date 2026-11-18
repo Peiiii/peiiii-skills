@@ -10,3 +10,4 @@
 - `ui.pattern.surface-elevation`：背景分区，边框定义相邻边界，阴影表达浮层或层次。
 - `ui.pattern.tags`：一个标签表达一个维度；分类和普通状态用中性色，有依据的异常再强调。
 - `ui.pattern.report-feed`：先显示来源、时间和可读摘要，长项可展开；成功或异常有证据才标记。
+- [ui.content.truncation-recovery](https://github.com/Peiiii/ui-rules/blob/main/rules/content/truncation-recovery.md)：单行摘要随容器缩放，使用实际剩余宽度；测试有、无行尾操作两种情况，并保留查看全文的路径。
