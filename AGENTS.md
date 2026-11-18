@@ -27,4 +27,4 @@
 - 独立通用Skill的唯一正文在skills/<slug>/；有专属项目的Skill留在原仓库，仅在registry.json登记，不复制正文。第三方包标记upstream并沿原包管理器升级，不当作自创内容或直接编辑node_modules。
 - 本人指派本库维护任务后，完成适用校验，精确提交推送自有仓库main并fetch核对；保护并发工作，不夹带、不强推。跨仓库先读取目标AGENTS并核对源代码归属。
 - 公开文件不写个人机器绝对路径、账号凭据、私有材料或运行日志。机器路径由SKILL_PROJECTS_ROOT、SKILL_INSTALL_ROOT或被忽略的registry.local.json绑定。登记来源不代表外部正文获准公开。
-- 修改后运行npm run check和npm test；修改clear-ui时另运行python3 skills/clear-ui/scripts/validate.py。源码修改只在owner进行，全局入口使用符号链接。
+- 修改后运行npm run check和npm test；修改peiiii-ui-best-practices时另运行python3 skills/peiiii-ui-best-practices/scripts/validate.py。源码修改只在owner进行，全局入口使用符号链接。

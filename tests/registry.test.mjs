@@ -63,6 +63,6 @@ test('public registry rejects embedded private bindings',async t=>{
   const f=await fixture(t);f.data.repositories.project.checkout='secret';await f.save();await assert.rejects(f.registry().load(),/registry.local/);
 });
 test('real registry is readable from a different cwd',()=>{
-  const result=spawnSync(process.execPath,[path.resolve('scripts/skills.mjs'),'resolve','clear-ui'],{cwd:os.tmpdir(),encoding:'utf8'});
+  const result=spawnSync(process.execPath,[path.resolve('scripts/skills.mjs'),'resolve','peiiii-ui-best-practices'],{cwd:os.tmpdir(),encoding:'utf8'});
   assert.equal(result.status,0,result.stderr);assert.equal(JSON.parse(result.stdout).owner,'peiiii-skills');
 });

@@ -40,6 +40,7 @@ ID格式：`ui.<模块>.<英文slug>`。一项一个文件，ID稳定且跨目�
 | [ui.pattern.list-table](patterns/ui.pattern.list-table.md) | 列表与表格 |
 | [ui.pattern.navigation-tabs](patterns/ui.pattern.navigation-tabs.md) | 侧边导航与页签 |
 | [ui.pattern.report-feed](patterns/ui.pattern.report-feed.md) | 汇报时间流 |
+| [ui.pattern.shadcn-native-components](patterns/ui.pattern.shadcn-native-components.md) | 从 shadcn 源码建立产品组件 |
 | [ui.pattern.spacing](patterns/ui.pattern.spacing.md) | 空间、邻近与对齐 |
 | [ui.pattern.supporting-pane](patterns/ui.pattern.supporting-pane.md) | 右侧辅助栏 |
 | [ui.pattern.surface-elevation](patterns/ui.pattern.surface-elevation.md) | 背景、容器与阴影 |

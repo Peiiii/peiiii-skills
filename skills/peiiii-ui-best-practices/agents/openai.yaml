@@ -1,0 +1,4 @@
+interface:
+  display_name: "Peiiii UI 最佳实践"
+  short_description: "用可维护的原则与条件模式改善界面层级、定位效率和完整任务体验"
+  default_prompt: "使用 $peiiii-ui-best-practices 评审当前界面，选择合适的组件与布局并验证关键路径。"
