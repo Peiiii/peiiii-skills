@@ -11,6 +11,7 @@ description: 在设计、实现或评审项目界面时使用，尤其适用于�
 - `ui.pattern.shadcn-native-components`：先复用项目组件；补通用组件时参考 [shadcn 源码](https://ui.shadcn.com/docs/components)，保留交互和可访问性，用项目 token 统一主题、字号和尺寸。
 - `ui.behavior.accessibility`：使用语义控件、可访问名称和可见键盘焦点。状态兼用文字或形状。普通文字对比度至少 4.5:1，大字 3:1；触控目标按 WCAG 2.2 条件核对 24×24 CSS px 与适用例外。
 - `ui.behavior.action-focus`：共享按钮只画一层贴合的键盘焦点标记。禁止页面叠加 outline/ring、指针关闭菜单后留外圈或用 blur 隐藏焦点。验收鼠标点开／点外关闭和 Tab／Enter／Escape，确认焦点正常归还。
+- `ui.controls.field-focus`：输入和选择控件聚焦时只强化原边界，禁止叠加外圈或改变尺寸；组合输入只在外层画反馈。
 
 ## 按任务查看
 
