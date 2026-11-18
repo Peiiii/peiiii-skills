@@ -3,7 +3,7 @@
 ## 基础控件
 
 - `ui.controls.input-affordance`：输入和选择范围在默认态就可识别，保留标签、可点范围与错误反馈。
-- 输入焦点检查鼠标、Tab 和弹窗自动聚焦；错误保持可辨识。发送快捷键避免截断输入法组字，保留换行与可点击发送。
+- 对比默认与聚焦边框，确认颜色、宽度一致；检查鼠标、Tab 和弹窗自动聚焦，错误状态保持可辨识。发送快捷键避免截断输入法组字，保留换行与可点击发送。
 - 用项目的 Button、IconButton 和 Tooltip；空图标按钮有明确名称，Tooltip 用一个 Trigger 接到实际按钮，保留默认定位和碰撞避让。触控区可以大于图标底色。
 - 焦点外圈复现时检查 computed `outline`、`box-shadow` 和伪元素，移除重复样式。如果菜单归还焦点后指针误触发 `:focus-visible`，在基础层识别输入方式，保留焦点归还。
 - 核对[交互内边距](https://github.com/Peiiii/ui-rules/blob/main/rules/layout/content-inset.md)、[悬停反馈](https://github.com/Peiiii/ui-rules/blob/main/rules/feedback/interactive-hover.md)和[选中态](https://github.com/Peiiii/ui-rules/blob/main/rules/feedback/selection-state.md)；hover、选中、键盘焦点各有表达。
