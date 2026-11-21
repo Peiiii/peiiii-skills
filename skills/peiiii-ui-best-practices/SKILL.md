@@ -12,8 +12,9 @@ description: 在设计、实现或评审项目界面时使用，尤其适用于�
 - `ui.behavior.accessibility`：使用语义控件、可访问名称和可见键盘焦点。状态兼用文字或形状。普通文字对比度至少 4.5:1，大字 3:1；触控目标按 WCAG 2.2 条件核对 24×24 CSS px 与适用例外。
 - `ui.behavior.action-focus`：共享按钮只画一层贴合的键盘焦点标记。禁止页面叠加 outline/ring、指针关闭菜单后留外圈或用 blur 隐藏焦点。验收鼠标点开／点外关闭和 Tab／Enter／Escape，确认焦点正常归还。
 - `ui.controls.field-focus`：输入和选择控件聚焦时保持边框颜色和尺寸。用光标或轻底色提示焦点，组合输入由外层统一反馈。
-
 - `ui.layout.compact-row-spacing`：统一行内间距，标签靠近对象，尾部操作对齐；复查有无标签和窄屏。详见 UI Rules 的 `rules/layout.md`。
+
+- `ui.content.status-presentation`：状态择一表达；图标须有可访问名称，靠形状或文字区分，不叠加重复标签。详见 UI Rules 的 `rules/content.md`。
 
 ## 按任务查看
 
