@@ -13,6 +13,9 @@
     },
     "content-studio": {
       "visibility": "private"
+    },
+    "chat-tool-bridge": {
+      "visibility": "private"
     }
   },
   "resources": [
@@ -156,6 +159,12 @@
       "owner": "content-studio",
       "mode": "project",
       "path": ".agents/skills/xiaohongshu-product-case"
+    },
+    {
+      "id": "chat-tool-bridge",
+      "owner": "chat-tool-bridge",
+      "mode": "project",
+      "path": "skills/chat-tool-bridge"
     }
   ]
 }
