@@ -12,3 +12,8 @@
 - `ui.pattern.supporting-pane`：辅助信息可收起并保留主区可读宽度；窄屏按需转独立页或临时面板。
 - `ui.pattern.navigation-tabs`：全局去处用侧栏，同一对象的并列视角用页签；可分享和返回的状态写入 URL。
 - `ui.pattern.tree`：树用于定位，图用于理解分布；层级含义稳定，只画有业务含义的连接。
+
+## 间距验收
+
+- 改动页面、分组或控件边距时，召回 `rules/layout.md#uilayoutspacing-hierarchy`。改动行首手柄、可选操作或标签时，同时核对 `rules/layout.md#uilayoutcompact-row-spacing`。
+- 改动交互表面时，召回 `rules/layout.md#uilayoutcontent-inset`。Review 比较同类条目的默认态与悬停态，检查内容有无空槽、移位或贴住反馈底色，再核对窄屏。

@@ -95,6 +95,7 @@ Skill 自有规则在链接文件内按 ID 查找。共享规则链接直达 UI 
 | [`ui.keyboard.no-keyboard-trap`](https://github.com/Peiiii/ui-rules/blob/main/rules/keyboard.md#uikeyboardno-keyboard-trap) |  |
 | [`ui.layout.compact-row-spacing`](https://github.com/Peiiii/ui-rules/blob/main/rules/layout.md#uilayoutcompact-row-spacing) | 列表标签、尾部按钮、行间距 |
 | [`ui.layout.content-inset`](https://github.com/Peiiii/ui-rules/blob/main/rules/layout.md#uilayoutcontent-inset) |  |
+| [`ui.layout.spacing-hierarchy`](https://github.com/Peiiii/ui-rules/blob/main/rules/layout.md#uilayoutspacing-hierarchy) |  |
 | [`ui.mobile.hover-independent`](https://github.com/Peiiii/ui-rules/blob/main/rules/mobile.md#uimobilehover-independent) |  |
 | [`ui.mobile.touch-target`](https://github.com/Peiiii/ui-rules/blob/main/rules/mobile.md#uimobiletouch-target) |  |
 | [`ui.mobile.viewport-reflow`](https://github.com/Peiiii/ui-rules/blob/main/rules/mobile.md#uimobileviewport-reflow) |  |
