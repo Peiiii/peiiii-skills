@@ -53,7 +53,7 @@ node scripts/skills.mjs install peiiii-ui-best-practices --replace-link
 - [登记与迁移约定](CONTRIBUTING.md)
 - [初始化设计与验收](docs/designs/2026-11-18-personal-skills.design.md)
 - `npm run check && npm test`
-- `python3 skills/peiiii-ui-best-practices/scripts/validate.py`
+- UI Skill 的全量索引由 Skill 规则与共享 `ui-rules` 登记生成。用 `node scripts/skills.mjs resource ui-rules` 确认本地检出位置，再运行 `python3 skills/peiiii-ui-best-practices/scripts/validate.py --write-index` 更新索引。去掉 `--write-index` 检查索引是否同步。
 - `.agents/` 为探索项目脚本安装的 DevWeave 开发规范；发布 Skill 正文位于 `skills/`，不要将受管开发规范混作个人作品。
 
 本库自有内容使用 [MIT License](LICENSE)。外部项目和引用资料沿各自许可；登记不改变其权属或许可。
