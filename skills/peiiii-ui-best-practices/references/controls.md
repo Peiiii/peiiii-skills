@@ -15,6 +15,6 @@
 
 - `ui.behavior.states`：区分期望状态、实测状态和数据时点。缺证据显示未知；普通暂停用中性色。
 - `ui.behavior.feedback-recovery`：区分已接纳、等待与完成，防重复提交；失败保留输入并给出恢复入口。难以撤销的操作先说明影响。
-- `ui.pattern.inline-menu`：常用操作就近可见，低频相关项收进具名菜单。
+- `ui.pattern.inline-menu`：常用操作就近可见，低频相关项收进具名菜单。更多操作图标的方向按 UI Rules 的 `rules/overlays.md#uioverlaysmore-actions-orientation` 验收。
 - `ui.pattern.dialog`：短决策用具名弹窗，保留焦点约束、Escape 和关闭后的焦点归还。
 - `ui.pattern.drawer`：补充同一上下文可用抽屉；明确模态、关闭和保存行为。复杂长表单优先独立页。
