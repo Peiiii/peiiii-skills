@@ -46,6 +46,12 @@
       "path": "skills/maintaining-personal-skills"
     },
     {
+      "id": "remote-claude-code",
+      "owner": "peiiii-skills",
+      "mode": "hosted",
+      "path": "skills/remote-claude-code"
+    },
+    {
       "id": "aosenmu-explainer",
       "owner": "content-studio",
       "mode": "project",

@@ -11,6 +11,7 @@ Peiiii 的开源个人 Skill 库与跨项目登记入口。
 | [peiiii-ui-best-practices](skills/peiiii-ui-best-practices/SKILL.md) | 信息层级、组件选择与交互清晰度 |
 | [drawing-system-architecture](skills/drawing-system-architecture/SKILL.md) | 用可编辑 SVG 表达系统架构 |
 | [maintaining-personal-skills](skills/maintaining-personal-skills/SKILL.md) | 从任意项目定位、维护、验证与同步 Skill |
+| [remote-claude-code](skills/remote-claude-code/SKILL.md) | SSH 恢复远程 Claude，当前会话等待、续作及独立验收 |
 
 [registry.json](registry.json) 同时登记项目维护的 Skill 和上游包入口。登记不代表所有条目均由本人原创；`project` 表示原项目负责维护，`upstream` 沿原包管理器升级，不直接编辑安装产物。本文不镜像外部项目正文。第三方安装工具、来源未确认的技能不批量迁入。
 
